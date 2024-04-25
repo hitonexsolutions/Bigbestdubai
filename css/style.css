@@ -1187,6 +1187,7 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #fff;
 }
 
+
 .carousel-caption h2 {
   font-size: 2rem;
   margin-bottom: 10px;
@@ -1206,6 +1207,7 @@ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
   border-radius: 10px;
 }
+
 
 
 
@@ -1982,3 +1984,29 @@ a.close-chat {
   .dk-footer-box-info {
     width: 450px;
   }
+
+  
+@media(max-width:741px){
+  .carousel-caption {
+    left: 0;
+  }
+  .carousel-img{
+    width: 100%;
+    height: 830px;
+  }
+  .dk-footer-box-info {
+    display: none;
+  }
+  .copyright-menu li{
+    padding: 2px;
+  }
+  .copyright-menu ul{
+    padding-left: 0px;
+    text-align: left;
+  }
+}
+
+@media(max-width:989px){
+.dk-footer-box-info {
+  display: none;
+}}
