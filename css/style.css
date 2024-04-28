@@ -1223,16 +1223,20 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 38px 0 40px;
   transition: 0.3s ease-in;
   margin-bottom: 30px;
-}
-.pricing-table-1:hover {
-  border-color: #197beb;
+  height: 700px;
 }
 .pricing-table-1 .price-header .title {
   color: #282828;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 25px;
+}
+.pricing-table-1 .price-header .line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 20px;
 }
 .pricing-table-1 .price-header .price {
   font-size: 50px;
@@ -1263,7 +1267,7 @@ input[type="number"]::-webkit-outer-spin-button {
   border: 2px solid #197beb;
   font-size: 14px;
   text-transform: uppercase;
-  border-radius: 25px;
+  border-radius: .5rem;
   color: #282828;
   transition: 0.3s ease-in;
   font-weight: 600;
@@ -1272,10 +1276,14 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: 13px;
   padding-left: 2px;
 }
+.pricing-table-1:hover .price-footer .order-btn{
+  border-color: #F7F9F8;
+  color: #F7F9F8;
+}
 .pricing-table-1 .price-footer .order-btn:hover {
-  background-color: #197beb;
+  background-color: #00000061;
   color: #fff;
-  border-color: #197beb;
+  border-color: #ffffff;
 }
 .pricing-table-1 .price-body ul {
   margin: 0;
@@ -1292,6 +1300,41 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .pricing-table-1 .price-body ul li:last-child {
   margin-bottom: 0;
+}
+
+.price-plan-wrapper .one, .three{
+  background-color: #84b9ff3b;
+}
+.pricing-table-1:hover {
+  border-color: #197beb;
+  background-color: #197beb;
+}
+.price-plan-wrapper .two {
+  height: 715px;
+  background-color: #197beb;
+  color: #F7F9F8;
+}
+.two .price-header .title{
+  color: #F7F9F8;
+}
+.two .price-header .price{
+  color: #F7F9F8;
+}
+.two .price-body ul li{
+  color: #F7F9F8;
+}
+.two .price-footer .order-btn{
+  border-color: #F7F9F8;
+  color: #F7F9F8;
+}
+.pricing-table-1:hover .price-header .title{
+  color: #F7F9F8;
+}
+.pricing-table-1:hover .price-header .price{
+  color: #F7F9F8;
+}
+.pricing-table-1:hover .price-body ul li{
+  color: #F7F9F8;
 }
 
   h3 {
